@@ -1,0 +1,54 @@
+body {
+    font-size: 20px;
+    color: #5D4037; /* Marrón chocolate para el texto */
+    font-family: "Arial", sans-serif;
+    background-color: #FFF4E6; /* Fondo cálido, ligeramente anaranjado */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.uno {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    border: 15px double #B85C38; /* Marrón anaranjado más vibrante */
+    background-color: rgba(255, 235, 205, 0.95); /* Color crema suave con opacidad */
+}
+
+button {
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    background-color: #C96A23; /* Naranja cálido para los botones */
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 45px; /* Esquinas redondeadas */
+    border: 3px solid #F4A460; /* Borde marrón suave */
+}
+
+input, select {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #FFF3E0; /* Fondo claro con toque cálido */
+    margin-bottom: 10px;
+    color: #5D4037; /* Texto en marrón cálido */
+}
+
+fieldset {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #C96A23; /* Coincide con el color de los botones */
+    padding: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    accent-color: #C96A23; /* Naranja cálido */
+    width: 20px;
+    height: 20px;
+}

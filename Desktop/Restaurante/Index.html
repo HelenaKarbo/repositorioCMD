@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head> 
+		<title>Restaurante</title>
+		<link rel="Stylesheet" type="text/css" href="restaurante.css">
+	</head>
+
+	<body>
+		<form action="restaurante.php" method="post">
+			<div class="uno">
+				<fieldset>
+					Fecha de la reserva
+					<br> <br>
+					<input type="date" name="fecha" min="2024-01-01" max="2024-12-31" />
+					<br> <br>
+					Nombre de la reserva
+					<br> <br>
+					<input type="text"/>
+					<br> <br>
+					Cliente habitual
+					<br> <br>
+					<input type="radio" name="cliente" value="Habitual" checked>Habitual</input>
+					<input type="radio" name="cliente" value="NoHabitual">No habitual</input>
+					<br> <br>
+					Escoja su mesa
+					<br> <br>
+					<select name="EscojaMesa">
+						<option>Escoja su mesa </option>
+						<option>Mesa 1 </option>
+						<option>Mesa 2 </option>
+						<option>Mesa 3 </option>
+						<option>Mesa 4 </option>
+						<option>Mesa 5 </option>
+						<option>Mesa 6 </option>
+					</select>
+					<br> <br>
+					Escoja un primero
+					<br> <br>
+					<input type="checkbox" name="primero" value="Sopa">Sopa de pollo</input>
+					<input type="checkbox" name="primero" value="Callos">Callos a la gallega</input>
+					<input type="checkbox" name="primero" value="Caldo">Caldo gallego</input>
+					<input type="checkbox" name="primero" value="Ensalada">Ensalada mixta</input>
+					<br> <br>
+					Escoja un segundo
+					<br> <br>
+					<input type="checkbox" name="segundo" value="Merluza">Merluza a la plancha</input>
+					<input type="checkbox" name="segundo" value="Carne">Carne asada</input>
+					<input type="checkbox" name="segundo" value="Macarrones">Macarrones boloñesa</input>
+					<input type="checkbox" name="segundo" value="Paella">Paella mixta</input>
+					<br> <br>
+					Escoja un postre
+					<br> <br>
+					<input type="checkbox" name="postre" value="Fruta">Fruta de temporada</input>
+					<input type="checkbox" name="postre" value="Yogur">Yogur de sabores</input>
+					<input type="checkbox" name="postre" value="Bizcocho">Bizcocho del dia</input>
+					<input type="checkbox" name="postre" value="Cafe">Cafe</input>
+					<br> <br>
+					Escoja una bebida
+					<br> <br>
+					<input type="checkbox" name="bebida" value="Agua">Agua</input>
+					<input type="checkbox" name="bebida" value="Vino">Vino de la casa</input>
+					<input type="checkbox" name="bebida" value="Cerveza">Cerveza</input>
+					<input type="checkbox" name="bebida" value="Cola">Refresco de cola</input>
+					<input type="checkbox" name="bebida" value="Naranja">Refresco de naranja</input>
+					<input type="checkbox" name="bebida" value="Limon">Refresco de limon</input>
+					<br> <br>
+					<button type="submit" name="enviar">Enviar</button>
+					<button type="reset" name="borrar">Borrar</button>
+				</fieldset>
+			</div>
+		</form>
+	</body>
+	
+</html>
